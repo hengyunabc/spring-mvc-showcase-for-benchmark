@@ -18,6 +18,11 @@ Spring MVC path variable and parameter variable benchmark.
 	}
 ```
 
+**start tomcat**
+```bash
+mvn tomcat7:run -DskipTests
+```
+
 **benchamrk:**
 ```bash
 ab -n 10000 -c 50 http://localhost:8080/spring-mvc-showcase/paravar?var=abc
